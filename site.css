@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  margin: 1% 2% 10% 2%;
+  display: flex;
+}
+
+.navtop {
+  width: 80%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+}
+
+.logo {
+  width: 20%;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+}
+
+.DownlandButton {
+  width: 20%;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  background-color: black;
+  border: solid black 1px;
+  border-radius: 25px;
+}
+
+.DownlandButton a {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+
+.Menu a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  padding: 10px;
+  margin: 2%;
+  float: left;
+}
+
+.Menu {
+  margin: 0;
+  width: 50%;
+  margin-left: 10%;
+}
