@@ -56,21 +56,27 @@ header {
 .top_text_box {
 
     float: left;
-    width: 40%;
+    width: 25%;
     margin: 0 2% 5% 2%;
     height: 500px;
     
+}
+
+.top_text_box h1 {
+
+    font-size: 60px;
 }
 .gallery {
     float: right;
     width: 50%;
     height: 50em;
     margin-left: 6%;
+    border: solid black 3px;
 }
 .tutorial {
     position: relative;
     bottom: 6em;
-    width: 50%;
+    width: 60%;
     margin: 0 0 5% 2%;
     height: 100px;
     display: flex;
@@ -80,14 +86,15 @@ header {
 
 .tutorial div {
 
-    border: solid black 1px;
-    border-radius: 10px;
+    border-radius: 13px;
     display: flex;  
     width: 400px;
     padding: 10px;
     justify-content: center;
     margin-right: 1em;
-
+    color: white;
+    background-color: black;
+    box-shadow: inset 10px 20px 30px 5px  rgb(231, 133, 6),  inset -10px -20px 30px 5px  rgb(231, 133, 6);
 }
 
 .tutorial div p {
