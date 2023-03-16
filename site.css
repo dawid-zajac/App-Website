@@ -56,13 +56,18 @@ header {
 
 .top_text_box {
   float: left;
-  width: 25%;
-  margin: 0 2% 5% 2%;
+  width: 30%;
+  margin: 2% 2% 5% 2%;
   height: 500px;
 }
 
 .top_text_box h1 {
-  font-size: 60px;
+  font-size: 80px;
+}
+
+.top_text_box p {
+  font-size: 20px;
+  color: gray;
 }
 
 .gallery {
@@ -80,23 +85,55 @@ header {
   margin: 0 0 5% 2%;
   height: 100px;
   display: flex;
+  justify-content: flex-start;
+}
+
+.tutorial:hover {
+  position: relative;
+  bottom: 6em;
+  width: 60%;
+  margin: 0 0 5% 2%;
+  height: 100px;
+  display: flex;
   justify-content: space-between;
 }
 
 .tutorial div {
   border-radius: 13px;
+  width: 60px;
   display: flex;
-  width: 400px;
   padding: 10px;
-  justify-content: center;
+  justify-content: flex-start;
   margin-right: 1em;
   color: white;
   background-color: black;
-  box-shadow: inset 10px 20px 30px 5px #e78506, inset -10px -20px 30px 5px #e78506;
+  box-shadow: inset -40px -40px 51px -45px #eb8107;
+  font-size: 18px;
+}
+
+.tutorial div:hover {
+  border-radius: 13px;
+  display: flex;
+  width: 300px;
+  padding: 10px;
+  justify-content: flex-start;
+  margin-right: 0.5em;
+  color: white;
+  background-color: black;
+  box-shadow: inset -40px -40px 51px -45px #eb8107;
+  font-size: 18px;
 }
 
 .tutorial div p {
   margin-right: 2em;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  padding: 0.3em;
+  background-color: #f38405;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  text-align: center;
 }
 
 .statistics {
