@@ -253,3 +253,11 @@ header {
   width: 80%;
   margin-right: 0;
 }
+
+#box {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 40em;
+  margin: 0 5%;
+}
