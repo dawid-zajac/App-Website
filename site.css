@@ -3,6 +3,7 @@
 }
 
 body {
+  background-color: #fcf8f8;
   width: 100%;
   margin: 0;
 }
@@ -316,8 +317,41 @@ header {
 }
 
 .boxbottom {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   width: 90%;
-  margin: 0 5%;
-  height: 800px;
+  margin: 7% 5%;
+  height: 150em;
   border: black solid 1px;
+}
+
+.boxbottom div {
+  border: solid red 1px;
+}
+
+.feature {
+  color: #eb8107;
+  background-color: white;
+  position: absolute;
+  left: 40%;
+  top: 102em;
+  z-index: 1;
+  width: 16%;
+  margin: auto;
+  height: 40px;
+  text-align: center;
+  padding: 25px;
+  font-size: 30px;
+  border-radius: 25px;
+}
+
+.righttextbar {
+  height: 20%;
+  margin: 10% 0;
+}
+
+.lefttextbar {
+  height: 20%;
+  margin: 0;
 }
